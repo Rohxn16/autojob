@@ -64,19 +64,21 @@ Skill-Gap Analysis: "You're 90% ready for this role. Learn this specific Google 
 
 System Requirements: A machine capable of running Ollama (8GB+ RAM recommended for Gemma 3:4B).
 
-# 1. Clone the Beast
+### 1. Clone the Beast
 clone the repo and cd into it
 
-# 2. Fire up the Local Brain
+### 2. Fire up the Local Brain
+```
 ollama serve
 ollama pull gemma3:4b # High-performance reasoning for GDG Hackathon
-
-# 3. Initialize Environment
+```
+### 3. Initialize Environment
+```
 cp .env.example .env # Add your TheirStack API Key
 pip install -r requirements.txt
-
-# 4. Launch the Agent
-python main.py
+```
+### 4. Launch the Agent
+```python3 main.py```
 
 
 🤝 Contributing
