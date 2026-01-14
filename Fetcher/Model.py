@@ -1,0 +1,8 @@
+from pydantic import BaseModel, Field
+
+class Model(BaseModel):
+    skill1: str = Field(description='Name of the most suitable job role from the context of the resume, make sure the name is concise and industry standard such that it can be used for seraching no usage of parenthesis or brackets to mention extra skills, generate it as a searchable role keyword for any job search platform')
+    skill2: str = Field(description='Name of the second most suitable job role from the context of the resume, make sure the name is concise and industry standard such that it can be used for seraching no usage of parenthesis or brackets to mention extra skills, generate it as a searchable role keyword for any job search platform')
+    skill3: str = Field(description='Name of the third most suitable job role from the context of the resume, make sure the name is concise and industry standard such that it can be used for seraching no usage of parenthesis or brackets to mention extra skills, generate it as a searchable role keyword for any job search platform')
+    skill4: str = Field(description='Name of the third most suitable job role from the context of the resume, make sure the name is concise and industry standard such that it can be used for seraching no usage of parenthesis or brackets to mention extra skills, generate it as a searchable role keyword for any job search platform')
+    skill5: str = Field(description='Name of the third most suitable job role from the context of the resume, make sure the name is concise and industry standard such that it can be used for seraching no usage of parenthesis or brackets to mention extra skills, generate it as a searchable role keyword for any job search platform')
